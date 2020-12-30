@@ -18,10 +18,10 @@ In this project, we created a Cryptogram Android Application for kids, using a [
 
 ## Documentation
 
-- [Design Document]()
-- [Use Case Model]()
-- [Test Plan]()
-- [User Manual]()
+- [Design Document](https://github.com/shuang379/cryptogram_android_app/blob/main/Docs/DesignDocument.md)
+- [Use Case Model](https://github.com/shuang379/cryptogram_android_app/blob/main/Docs/UseCaseModel.md)
+- [Test Plan](https://github.com/shuang379/cryptogram_android_app/blob/main/Docs/TestPlan.md)
+- [User Manual](https://github.com/shuang379/cryptogram_android_app/blob/main/Docs/UserManual.md)
 
 ## Process Description
 

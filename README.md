@@ -1,3 +1,4 @@
+# Cryptogram Android Application for Kids
 ## Project Overview
 
 In this project, we created a Cryptogram Android Application for kids, using a [simple substitution cipher](https://en.wikipedia.org/wiki/Substitution_cipher). This application implements several functions: Login, Registration, create a cryptogram, solve a cryptogram, disable a cryptogram, view scores and view statistics. 

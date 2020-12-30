@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PopActivity">
+
+
+    <EditText
+        android:id="@+id/txt_bet"
+        android:layout_width="200sp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="@string/enterBet"
+        android:inputType="textPersonName"
+        android:textColorLink="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382" />
+
+    <Button
+        android:id="@+id/btn_submit_popup"
+        android:layout_width="200sp"
+        android:layout_height="29dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#D2DFE5E6"
+        android:scrollbarSize="4sp"
+        android:text="@string/submitButton"
+        android:textColor="@color/colorPrimary"
+        android:textColorLink="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_bet"
+        app:layout_constraintVertical_bias="0.23" />
+
+    <Button
+        android:id="@+id/btn_cancel_popup"
+        android:layout_width="200sp"
+        android:layout_height="29dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#D2DFE5E6"
+        android:scrollbarSize="4sp"
+        android:text="@string/cancelButton"
+        android:textColor="@color/colorPrimary"
+        android:textColorLink="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_submit_popup"
+        app:layout_constraintVertical_bias="0.216" />
+</androidx.constraintlayout.widget.ConstraintLayout>
